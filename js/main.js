@@ -1,4 +1,6 @@
 
+alert('This is version 3');
+/*
 let counter = 0;
 
 function timer () {
@@ -12,7 +14,7 @@ function timer () {
 
     setTimeout(timer, 1000)
 }
-
+      */
 
 
 //
