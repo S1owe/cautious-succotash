@@ -1,5 +1,5 @@
 
-let counter = 10;
+let counter = 5;
 
 function timer () {
     counter++;
