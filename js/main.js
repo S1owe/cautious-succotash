@@ -2,7 +2,7 @@
 let counter = 0;
 let check = null;
 
-alert('This is fixBug');
+alert('This is newBranch');
 
 
 function timer () {
