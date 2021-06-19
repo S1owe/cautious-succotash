@@ -5,6 +5,8 @@ function onloadFunc(){
     let elem = document.getElementById('elem');
     elem.addEventListener("click", handler1); // Спасибо!
     el.addEventListener("click", numFunc);
+
+    timer();
 }
 
 function numFunc() {
