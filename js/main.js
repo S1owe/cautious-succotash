@@ -1,7 +1,7 @@
 
-let counter = 5;
+let counter = 0;
 
-alert('This is version 3');
+alert('This is newBranch');
 
 
 function timer () {
@@ -10,5 +10,4 @@ function timer () {
     setTimeout(timer, 1000)
 }
 
-//
 
