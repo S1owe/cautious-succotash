@@ -3,6 +3,7 @@ let counter = 0;
 let check = null;
 
 alert('This is newBranch');
+alert('This is main');
 
 
 function timer () {
@@ -13,8 +14,15 @@ function timer () {
         console.log(check);
     }
 
+
+    if (counter === 100 ) {
+        console.log('This is 100');
+        return 0;
+    }
+
     document.getElementById("count").innerHTML = counter;
     setTimeout(timer, 1000)
 }
 
+//
 
