@@ -1,5 +1,6 @@
 
 let counter = 0;
+let check = null;
 
 alert('This is newBranch');
 
@@ -7,9 +8,9 @@ alert('This is newBranch');
 function timer () {
     counter++;
 
-    if (counter === 10) {
-        alert('The end!');
-        return 0;
+    if (counter === 3) {
+        check = true;
+        console.log(check);
     }
 
     document.getElementById("count").innerHTML = counter;
