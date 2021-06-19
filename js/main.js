@@ -1,6 +1,6 @@
 let countClick = 0;
 
-window.onload = function(){
+function onloadFunc(){
     let el = document.getElementById('clickEl');
     let elem = document.getElementById('elem');
     elem.addEventListener("click", handler1); // Спасибо!
