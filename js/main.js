@@ -1,11 +1,19 @@
 
-let counter = 5;
+let counter = 0;
+let check = null;
 
+alert('This is newBranch');
 alert('This is main');
 
 
 function timer () {
     counter++;
+
+    if (counter === 3) {
+        check = true;
+        console.log(check);
+    }
+
 
     if (counter === 100 ) {
         console.log('This is 100');
@@ -16,4 +24,5 @@ function timer () {
     setTimeout(timer, 1000)
 }
 
+//
 
