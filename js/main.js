@@ -1,9 +1,11 @@
 
-let counter = 200;
+let counter = 5;
+
+alert('This is version 3');
+
 
 function timer () {
     counter++;
-    console.log('counter = ' + counter);
     document.getElementById("count").innerHTML = counter;
     setTimeout(timer, 1000)
 }
