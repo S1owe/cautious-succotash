@@ -2,8 +2,7 @@
 let counter = 0;
 let check = null;
 
-alert('This is newBranch');
-alert('This is main');
+alert('This is fixBug');
 
 
 function timer () {
@@ -23,6 +22,8 @@ function timer () {
     document.getElementById("count").innerHTML = counter;
     setTimeout(timer, 1000)
 }
+
+
 
 //
 
